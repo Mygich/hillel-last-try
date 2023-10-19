@@ -1,0 +1,25 @@
+.block1 {
+   width: 700px;
+   height: 1000px;
+   border: solid red;
+}
+
+.title-main-b1 {
+   color: blueviolet;
+   font-size: 70px;
+}
+
+.text-b1 {
+   color: aqua;
+   font-size: 30px;
+}
+
+.text-on-b1 {
+   color: blueviolet;
+   font-size: 40px;
+}
+
+.title-second-b1 {
+   color: brown;
+   font-size: 60px;
+}
