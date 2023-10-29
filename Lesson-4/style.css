@@ -1,0 +1,70 @@
+body {
+   font-family: 'Inter', sans-serif;
+}
+
+.The-Main-Block {
+   background-color: #B0C6FF;
+   margin: 0 100px 100px 100px;
+   box-sizing: border-box;
+   padding-left: 37px;
+   padding-right: 37px;
+   text-align: center;
+}
+
+.Title-b0 {
+   color: #FFF;
+   text-align: center;
+   font-size: 48px;
+   font-weight: 700;
+   line-height: normal;
+   padding-bottom: 29px;
+   padding-top: 29px;
+}
+
+.minion-B1 {
+   box-sizing: border-box;
+   background-color: #FFF;
+   text-align: center;
+   width: 255px;
+   height: 327px;
+   display: inline-block;
+   margin-right: 40px;
+   margin-top: 20px;
+   padding-top: 22px;
+}
+
+.title {
+   color: #000;
+   font-size: 12px;
+   font-weight: 700;
+   line-height: normal;
+   margin-top: 11px;
+}
+
+.minion-text {
+   color: #000;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: normal;
+   margin-top: 11px;
+}
+
+.btn {
+   background: #6177EB;
+   flex-shrink: 0;
+   border: none;
+   cursor: pointer;
+   padding-top: 13px;
+   padding-bottom: 13px;
+   padding-right: 52px;
+   padding-left: 52px;
+   color: #FFF;
+   font-size: 12px;
+   font-weight: 700;
+   line-height: normal;
+   margin-top: 22px;
+   margin-bottom: 22px;
+}
+.Block2{
+   padding-bottom: 50px;
+}
