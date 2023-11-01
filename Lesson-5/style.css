@@ -1,0 +1,73 @@
+.first,
+.second,
+.third {
+   background-color: gray;
+}
+
+.first-block-1,
+.first-block-2,
+.second-block-1,
+.second-block-2,
+.second-block-3,
+.second-block-4,
+.second-block-5,
+.third-block-1,
+.third-block-2,
+.third-block-3,
+.third-block-4 {
+   width: 50px;
+   background-color: coral;
+   font-weight: bold;
+   font-size: 40px;
+   color: white;
+   padding: 20px;
+   text-align: center;
+
+}
+
+.clearfix {
+   clear: both;
+}
+
+/* first */
+.first-block-1 {
+   float: left;
+}
+
+.first-block-2 {
+   float: right;
+}
+
+/* second */
+.second-block-1 {
+   float: left;
+}
+
+.sec-b {
+
+   float: right;
+   padding: 10px;
+
+}
+
+.second-block-2,
+.second-block-3,
+.second-block-4,
+.second-block-5 {
+   float: left;
+}
+
+/* third */
+.third-block-1,
+.third-block-2 {
+   float: left;
+}
+
+.tr-b {
+   float: right;
+}
+
+.third-block-3,
+.third-block-4 {
+   float: left;
+}
