@@ -1,0 +1,45 @@
+.composition {
+  width: 600px;
+  height: 400px;
+  background: url("./img/bg.webp");
+   position: relative;
+}
+.comp-item{
+  position: relative;
+}
+
+/* z */
+.ufo{
+z-index: 5;
+left: 70px;
+bottom: -100px;
+}
+.planet-3{
+  z-index: 4;
+  left: 20px;
+    bottom: -160px;
+}
+.spaceship{
+z-index: 3;
+left: -180px;
+  bottom: 130px;
+}
+.planet-2{
+  z-index: 2;
+  left: -250px;
+    bottom: -2px;
+}
+.planet-1{
+  z-index: 1;
+    left: 220px;
+    bottom: 200px;
+}
+
+.superman{
+  left: 300px;
+  bottom: -30px;
+}
+.asteroid{
+    left: 300px;
+      top: -200px;
+}
