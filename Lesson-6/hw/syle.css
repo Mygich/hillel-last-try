@@ -1,17 +1,11 @@
 body {
    font-family: 'Roboto', sans-serif;
-   background-color: #EEEFF1;
 }
 
 .container {
    max-width: 1200px;
    margin: 0 auto;
    overflow: auto;
-}
-
-a {
-   text-decoration: none;
-   list-style-type: none;
 }
 
 a:visited {
@@ -23,24 +17,23 @@ a:visited {
 }
 
 /* BLOCK 1 */
+.b-first {
+   background-color: #EEEFF1;
+}
+
 /* !nav */
 .navigation {
    margin-top: 79px;
-   margin-bottom: 100px;
-   position: sticky;
-   top: 0;
-   padding: 10px;
-   background-color:#EEEFF1;
 }
 
 .list-item {
    display: inline-block;
-
    font-size: 16px;
    font-weight: 400;
    line-height: 164.063%;
    text-transform: uppercase;
-   padding-right: 42px;
+   margin-right: 42px;
+   margin-bottom: 150px;
 }
 
 .link {
@@ -61,10 +54,11 @@ a:visited {
 }
 
 /* !main-b1*/
-.main{
+.main {
    box-sizing: border-box;
-      width: 540px;
+   width: 540px;
 }
+
 .main-title {
    color: #000;
    font-size: 48px;
@@ -93,12 +87,14 @@ a:visited {
 
    padding: 20px 40px 20px 40px;
    margin-top: 65px;
-   margin-bottom: 141px;
+   margin-bottom: 130px;
 }
-.btn:hover{
+
+.btn:hover {
    padding: 30px 50px 30px 50px;
    background-color: #4570a6;
 }
+
 /* BLOCK 2 */
 
 .block-second {
@@ -112,6 +108,7 @@ a:visited {
    text-align: center;
    box-sizing: border-box;
    width: 540px;
+   margin-top: 112px;
 }
 
 .title-about {
@@ -119,8 +116,8 @@ a:visited {
    font-size: 32px;
    font-weight: 500;
    line-height: normal;
-   padding-top: 112px;
-   padding-bottom: 50px;
+   margin-bottom: 50px;
+
 }
 
 .text-about {
@@ -128,7 +125,7 @@ a:visited {
    font-size: 16px;
    font-weight: 400;
    line-height: 164.063%;
-   padding-bottom: 100px;
+   margin-bottom: 100px;
 }
 
 /* BLOCK 3 */
@@ -137,13 +134,13 @@ a:visited {
 }
 
 .cards {
-   display: flex;
-      justify-content: center;
-      align-items: center;
+   align-items: center;
+
 }
 
 .cards-item {
    display: inline-block;
+   justify-content: center;
 }
 
 .img-texts {
@@ -170,22 +167,18 @@ a:visited {
 
 /* BLOCK 4 */
 .b-fourth {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
+   background: #EEEFF1;
+   padding-top: 90px;
 }
 
 .do-work {
    text-align: center;
    box-sizing: border-box;
-   width: 540px;
-   padding-top: 90px;
+   justify-content: center;
 }
 
 .title-work {
    color: #000;
-   text-align: center;
    font-size: 32px;
    font-weight: 500;
    line-height: normal;
@@ -193,39 +186,40 @@ a:visited {
 
 .work-text {
    color: #727272;
-   text-align: center;
    font-size: 16px;
    font-weight: 400;
    line-height: 164.063%;
    margin-top: 50px;
+   max-width: 540px;
+   display: inline-block;
 }
 
 .video {
-   width: 900px;
-   height: 450px;
-   margin-bottom: 90px;
+   text-align: center;
+   margin-bottom: 50px;
 }
+
 /* BLOCK 5 */
 
-.last-block{
-   background: var(--Accent, #34547A);
-   
+.last-block {
+   justify-content: center;
+   background: #34547A;
+   margin-top: -50px;
 }
-.last{
-   margin: 0 auto;
-}
-.name{
+
+.name {
    color: #FFF;
-      font-size: 21px;
-      font-weight: 500;
-      line-height: normal;
-      padding-top: 50px;
-      padding-bottom: 20px;
+   font-size: 21px;
+   font-weight: 500;
+   line-height: normal;
+   padding-top: 50px;
+   padding-bottom: 20px;
 }
-.text-last{
+
+.text-last {
    color: #FFF;
-      font-size: 13px;
-      font-weight: 400;
-      line-height: 164.063%;
-      padding-bottom: 50px;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 164.063%;
+   padding-bottom: 50px;
 }
