@@ -15,10 +15,10 @@ a:visited {
 /* !nav-main*/
 .navigation {
    position: sticky;
-   top: 0;
+   top: -65px;
    padding: 10px;
    background: #EEEFF1;
-   padding-top: 50px;
+   padding-top: 80px;
 }
 .list-item {
    display: inline-block;
