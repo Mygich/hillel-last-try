@@ -434,12 +434,14 @@
    font-weight: 400;
    line-height: 24px;
 }
+
 /* BLOCK 5 */
-.footer{
+.footer {
    background: #FAFAFA;
    padding: 0 50px 52px 100px;
 }
-.subscribe{
+
+.subscribe {
    box-sizing: border-box;
    display: flex;
    justify-content: space-between;
@@ -449,13 +451,15 @@
    padding-top: 100px;
    margin-bottom: 50px;
 }
-.footer-title{
+
+.footer-title {
    color: #222;
-      font-family: Red Hat Display;
-      font-size: 36px;
-      font-weight: 500;
-      line-height: 46px;
+   font-family: Red Hat Display;
+   font-size: 36px;
+   font-weight: 500;
+   line-height: 46px;
 }
+
 .search-form {
    position: relative;
    display: inline-block;
@@ -488,55 +492,64 @@
    width: 103px;
    height: 47px;
 }
-.footer-info{
-   
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 20px;
+
+.footer-info {
+
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 20px;
 }
-.main-info{
-box-sizing: border-box;
-width: 326px;
+
+.main-info {
+   box-sizing: border-box;
+   width: 326px;
 }
-.footer-logo{
+
+.footer-logo {
    color: #222;
-      font-family: Red Hat Display;
-      font-size: 40px;
-      font-style: italic;
-      font-weight: 700;
-      line-height: 50px;
-      text-decoration-line: underline;
-      margin-bottom: 38px;
+   font-family: Red Hat Display;
+   font-size: 40px;
+   font-style: italic;
+   font-weight: 700;
+   line-height: 50px;
+   text-decoration-line: underline;
+   margin-bottom: 38px;
 }
-.footer-p{
+
+.footer-p {
    color: #555;
-      font-family: Red Hat Display;
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 32px;
+   font-family: Red Hat Display;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 32px;
 }
-.footer-q-link{
+
+.footer-q-link {
    box-sizing: border-box;
 }
-.footer-title-link{
-color: #222;
+
+.footer-title-link {
+   color: #222;
    font-family: Red Hat Display;
    font-size: 20px;
    font-weight: 500;
    line-height: 24px;
    margin-bottom: 40px;
 }
-.q-link-list{
-   padding-bottom: 20px; 
+
+.q-link-list {
+   padding-bottom: 20px;
 }
-.a-q-link-list{
+
+.a-q-link-list {
    color: #222;
-      font-family: Red Hat Display;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 20px;  
+   font-family: Red Hat Display;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 20px;
 }
-.footer-logos-a{
+
+.footer-logos-a {
    margin-right: 28px;
 }
