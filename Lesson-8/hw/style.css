@@ -379,6 +379,7 @@
    line-height: 32px;
    padding: 16px 32px 16px 32px;
    background: #402F2C;
+   cursor: pointer;
 }
 
 .cosmetics {
