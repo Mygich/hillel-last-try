@@ -378,7 +378,10 @@ body {
    margin-right: 5px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 810px) {
+   .people{
+      padding: 70px 15px 70px 15px;
+   }
    .people__team {
       display: block;
    }
@@ -387,15 +390,20 @@ body {
       display: flex;
       justify-content: center;
       margin-bottom: 20px;
+
    }
 
    .team__people-info {
       flex-wrap: wrap;
+      display: flex;
+         flex-direction: column;
    }
 
    .people-info__cards-people {
       margin: 0 auto;
       margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
    }
 }
 
