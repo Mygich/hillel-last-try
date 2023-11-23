@@ -139,6 +139,7 @@ body {
    background-position: center;
    background-image: url(./img/main-page-background-2.jpg);
    background-repeat: no-repeat;
+   background-size: cover;
    padding-top: 80px;
    padding-bottom: 31px;
 }
@@ -292,6 +293,8 @@ body {
    background-image: url(./img/background-b-3.jpg);
    background-repeat: no-repeat;
    background-position: center;
+   background-position-y: -900px;
+   background-size: cover;
    padding: 127px;
 }
 
@@ -308,6 +311,13 @@ body {
    max-width: 60px;
    height: 2px;
    background: #C7AA8B;
+}
+
+@media screen and (max-width:1700px) {
+   .phrase {
+      padding: 80px;
+      background-position-y: 0;
+   }
 }
 
 @media screen and (max-width:800px) {
@@ -379,9 +389,10 @@ body {
 }
 
 @media screen and (max-width: 810px) {
-   .people{
+   .people {
       padding: 70px 15px 70px 15px;
    }
+
    .people__team {
       display: block;
    }
@@ -396,7 +407,6 @@ body {
    .team__people-info {
       flex-wrap: wrap;
       display: flex;
-         flex-direction: column;
    }
 
    .people-info__cards-people {
@@ -576,14 +586,18 @@ body {
    line-height: 20px;
 }
 
-@media screen and (max-width: 800px){
-   .footer{
+@media screen and (max-width: 800px) {
+   .footer {
       padding: 60px 15px 60px 15px;
    }
-   .footer__footer-content{
+
+   .footer__footer-content {
       flex-wrap: wrap;
    }
-   .footer-content__footer-logo, .footer-content__btn, .footer-content__text{
+
+   .footer-content__footer-logo,
+   .footer-content__btn,
+   .footer-content__text {
       margin: 0 auto;
       margin-bottom: 30px;
    }
