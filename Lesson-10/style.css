@@ -329,7 +329,7 @@ body {
 
 .people__team {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-evenly;
 }
 
 .team__title {
