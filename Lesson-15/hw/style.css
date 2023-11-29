@@ -208,7 +208,7 @@
    .right-small-cards__text {
       text-align: center;
       justify-items: center;
-      padding-top: 0;
+      padding-top: 20px;
 
    }
 
@@ -221,7 +221,7 @@
 
    .left-main__text,
    .right-main__text {
-      top: 60%;
+      top: 72%;
       left: 50%;
       background-color: transparent;
    }
