@@ -3,7 +3,7 @@
    margin: 0 auto;
 }
 
-.grid-container {
+.grid-container{
    display: grid;
    height: 100%;
    grid-template-columns: repeat(3, 1fr);
