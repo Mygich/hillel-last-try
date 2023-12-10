@@ -1,0 +1,146 @@
+.burger {
+   max-width: 500px;
+   margin-top: 30px;
+}
+
+.burger__menu {
+
+   background-color: gray;
+   text-align: center;
+}
+
+.menu__list {
+   height: 50px;
+   align-items: center;
+}
+
+
+.menu__list,
+.list-right__list {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.link__list {
+   position: absolute;
+   top: 50px;
+   left: 130px;
+   background-color: blue;
+   height: 100px;
+   width: 130px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
+
+.menu__color {
+   background-color: blue;
+   height: 10px;
+   max-width: 500px;
+}
+
+.menu__link,
+.item__link,
+.link__link {
+   color: azure;
+}
+
+.main-btn {
+   height: 50px;
+   padding-right: 20px;
+   padding-left: 20px;
+   background-color: transparent;
+   align-self: first baseline;
+   position: relative;
+   cursor: pointer;
+}
+
+.main-btn:hover {
+   background-color: blue;
+}
+
+.main-list__main-item, .add {
+   display: none;
+}
+
+.active .main-list__main-item {
+   display: block;
+}
+.active .add{
+   display: block;
+}
+
+.main-list__main-item {
+   position: absolute;
+   top: 90px;
+   border: 1px solid black;
+}
+
+.add {
+   position: absolute;
+   top: 135px;
+}
+
+.prod-1::after {
+   content: '+';
+   color: azure;
+   position: absolute;
+   top: 15px;
+   right: 10px;
+}
+
+.add::after {
+   content: '+';
+   color: azure;
+   position: absolute;
+   top: 15px;
+   right: 10px;
+}
+
+.main-item__main-btn {
+   padding: 15px 55px 15px 15px;
+   background-color: blue;
+   cursor: pointer;
+}
+
+.main-item__main-btn:hover {
+   background-color: rgb(21, 21, 201);
+}
+
+.main-item__main-link {
+   color: white;
+}
+
+.add__add-list {
+   position: absolute;
+   top: 0;
+   right: -101px;
+   width: 100px;
+   text-align: start;
+   display: none;
+}
+.active .add__add-list{
+   display: block;
+}
+.add-item__add-btn {
+   padding: 15px;
+   background-color: blue;
+   border: 1px solid black;
+   cursor: pointer;
+}
+
+.add-item__add-btn:hover {
+   background-color: rgb(21, 21, 201);
+}
+
+.add-btn__add-link {
+   color: azure;
+}
+
+.add-list__add-item{
+   display: none;
+}
+.active .add-list__add-item {
+   display: none;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./reset.css">
+   <link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+
+<body>
+
+   <div class="burger">
+      <div class="burger__menu">
+
+         <ul class="menu menu__list">
+            <li class="menu__item">
+               <a class="menu__link" href="#">HOME</a>
+            </li>
+
+            <!-- burger -->
+
+            <li class="menu__item main">
+               <button id="my-button" class="main-btn active">
+                  <a class="menu__link blue" href="#">PRODUCTS +</a>
+               </button>
+
+               <ul  class="main-list main-btn__main-list ">
+
+                  <li id="my-text" class="main-item main-list__main-item active">
+                     <button class="main-item__main-btn prod-1">
+                        <a class="main-item__main-link" href="#">Product 1</a>
+                     </button>
+                  </li>
+
+                  <li id="my-text-add" class="main-item main-list__main-item add active">
+                     <button id="add-button" class="main-item__main-btn active">
+                        <a class="main-item__main-link" href="#">Product 2</a>
+                     </button>
+
+                     <ul class="add-list add__add-list">
+                        <li id="add-text" class="add-item add-list__add-item active">
+                           <button class="add-btn add-item__add-btn">
+                              <a class="add-btn__add-link" href="#">Sub Item1</a>
+                           </button>
+                        </li>
+                        <li id="add-text-2" class="add-item add-list__add-item active">
+                           <button class="add-btn add-item__add-btn">
+                              <a class="add-btn__add-link" href="#">Sub Item 2</a>
+                           </button>
+                        </li>
+                     </ul>
+
+                  </li>
+               </ul>
+
+
+
+            <li class="menu__item">
+               <a class="menu__link" href="#">ABOUT</a>
+            </li>
+            <li class="menu__item">
+               <a class="menu__link" href="#">CONTACT</a>
+            </li>
+         </ul>
+      </div>
+
+      <div class="menu__color"></div>
+   </div>
+
+
+
+
+
+   <script src="script.js"></script>
+</body>
+
+</html>
