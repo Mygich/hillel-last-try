@@ -16,34 +16,105 @@
 
 <body>
 
-   <!-- Block-1 -->
+   <!-- !Block-1 -->
 
    <section class="main-page">
       <div class="container-m">
          <header class="header main-page__header">
-            <div class="logo">
+            <div class="logo header__logo">
                <a class="logo-link logo__logo-link" href="#" target="_blank">
                   <img class="logo-link__logo-shop" src="./img/logo-shop.svg" alt="logo-shop">
                   <img class="logo-link__logo-text" src="./img/logo-text.svg" alt="logo-text">
                </a>
             </div>
-            <nav class="navigation header__navigation">
-               <button class="navigation__btn">Marketplace</button>
-               <button class="navigation__btn">Rankings</button>
-               <button class="navigation__btn">Connect a wallet</button>
-               <button class="btn-signup navigation__btn-signup">
-                  <span class="btn-signup__text">Sign Up</span>
-               </button>
-            </nav>
+
+            <!-- burger -->
+
+            <div class="burger-menu">
+               <div class="menu">
+                  <nav class="navigation header__navigation">
+                     <ul class="navigation__navigation-list">
+
+                        <div class="navigation-list__block-nav">
+                           <li class="navigation__nav-item">
+                              <button class="navigation__btn burger-btn active">Marketplace</button>
+                           </li>
+                           <li class="navigation__nav-item">
+                              <button class="navigation__btn burger-btn active">Rankings</button>
+                           </li>
+                        </div>
+
+                        <div class="navigation-list__btn">
+                           <li class="navigation__nav-item cent">
+                              <button class="navigation__btn burger-btn  active">Connect a
+                                 wallet</button>
+                           </li>
+                           <li class="navigation__nav-item">
+                              <button class="btn-signup burger-btn navigation__btn-signup active">
+                                 <span class="btn-signup__text">Sign Up</span>
+                              </button>
+                           </li>
+                        </div>
+                     </ul>
+                  </nav>
+               </div>
+
+               <div class="menu-btn">
+                  <span class="small"></span>
+                  <span class="long"></span>
+                  <span class="small"></span>
+               </div>
+            </div>
          </header>
 
-         <div class="container">
-            <div class="content main-page__content">
+         <!--  -->
 
-               <div class="text content__text">
-                  <h1 class="text__title">Discover digital art & Collect NFTs</h1>
-                  <p class="text__description">NFT marketplace UI created with Anima for Figma. Collect, buy and sell
-                     art from more than 20k NFT artists.</p>
+         <div class="container">
+            <div class="main-page__all">
+               <div class="content main-page__content">
+
+                  <div class="text content__text">
+
+                     <h1 class="text__title">Discover digital art & Collect NFTs</h1>
+                     <p class="text__description">NFT marketplace UI created with Anima for Figma. Collect, buy and sell
+                        art from more than 20k NFT artists.</p>
+                  </div>
+
+                  <div class="content__main-page-block">
+                     <button class="btn-start text__btn-start">
+                        <span class="btn-start__text">Get Started</span>
+                     </button>
+
+                     <div class="numbers text__numbers">
+                        <div class="numbers-content numbers__numbers-content">
+                           <p class="numbers-content__count">240k+</p>
+                           <p class="numbers-content__text">Total Sale</p>
+                        </div>
+                        <div class="numbers-content numbers__numbers-content">
+                           <p class="numbers-content__count">100k+</p>
+                           <p class="numbers-content__text">Auctions</p>
+                        </div>
+                        <div class="numbers-content numbers__numbers-content">
+                           <p class="numbers-content__count">240k+</p>
+                           <p class="numbers-content__text">Artists</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+
+               <div class="img-block main-page__img-block">
+                  <img class="img-block__picture" src="./img/main-block-img.png" alt="picture">
+                  <div class="img-content img-block__img-content">
+                     <p class="img-content__text">Space Walking</p>
+                     <a class="img-content__link" href="#" target="_blank">
+                        <p class="img-content__artist">Animakid</p>
+                     </a>
+                  </div>
+               </div>
+
+               <!--  -->
+               <div class="content__main-page-block hidden">
                   <button class="btn-start text__btn-start">
                      <span class="btn-start__text">Get Started</span>
                   </button>
@@ -64,13 +135,452 @@
                   </div>
                </div>
 
-               <div class="img-block main-page__img-block">
-                  <img class="img-block__picture" src="./img/main-page-pic.png" alt="picture">
-                  <div class="img-content img-block__img-content">
-                     <p class="img-content__text">Space Walking</p>
-                     <a class="img-content__link" href="#" target="_blank">
-                        <p class="img-content__artist">Animakid</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- !Block 2 -->
+   <section class="trending-collection">
+      <div class="container">
+         <div class="info trending-collection__info">
+            <h2 class="info__title">Trending Collection</h2>
+            <p class="info__description">Checkout our weekly updated trending collection.</p>
+         </div>
+
+         <!-- 1 -->
+         <div class="grid-container__cards">
+            <div class="grid-cards__first grid-block">
+               <img class="grid-img-main" src="./img/first-main.png" alt="dog">
+
+               <div class="first__first-card">
+                  <img class="grid-img-left" src="./img/first-left-g.png" alt="cat">
+
+                  <img class="grid-img-center" src="./img/first-center.png" alt="bear">
+
+                  <div class="grid-cards__first-text">
+                     <p class="first-text__numbers">1025+</p>
+                  </div>
+               </div>
+               <div class="information-first grid-cards__information-first">
+                  <h5 class="information-first__grid-title">DSGN Animals</h5>
+                  <a class="grid-artist-link" href="#" target="_blank">
+                     <p class="information-first__artist-name">MrFox</p>
+                  </a>
+               </div>
+
+            </div>
+
+            <!-- 2 -->
+            <div class="grid-container__second-card">
+               <div class="grid-cards__second grid-block">
+                  <img class="grid-img-main" src="./img/second-main.png" alt="mushroom">
+                  <div class="second__second-card">
+                     <img class="grid-img-left" src="./img/second-left.png" alt="mushroom">
+
+                     <img class="grid-img-center" src="./img/second-center.png" alt="mushroom">
+
+                     <div class="grid-cards__second-text">
+                        <p class="second-text__numbers">1025+</p>
+                     </div>
+
+
+                  </div>
+                  <div class=" information grid-cards__information-second">
+                     <h5 class="information-second__grid-title">Magic Mushrooms</h5>
+                     <a class="grid-artist-link" href="#" target="_blank">
+                        <p class="information-second__artist-name">Shroomie</p>
                      </a>
+                  </div>
+               </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="grid-container__third-card">
+               <div class="grid-cards__third grid-block">
+                  <img class="grid-img-main" src="./img/third-main.png" alt="man">
+
+                  <div class="third__third-card">
+                     <img class="grid-img-left" src="./img/third-left.png" alt="man">
+
+
+                     <img class="grid-img-center" src="./img/third-center.png" alt="man">
+
+                     <div class="grid-cards__third-text">
+                        <p class="third-text__numbers">1025+</p>
+                     </div>
+
+                  </div>
+                  <div class="information grid-cards__information-third">
+                     <h5 class="information-third__grid-title">Disco Machines</h5>
+                     <a class="grid-artist-link" href="#" target="_blank">
+                        <p class="information-third__artist-name">BeKind2Robots</p>
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </section>
+   <!-- !Block 3 -->
+   <section class="top-creators">
+      <div class="container">
+         <div class="top-info top-creators__top-info">
+            <div class="info-description top-info__info-description">
+               <h2 class="info-description__title">Top creators</h2>
+               <p class="info-description__describe">Checkout Top Rated Creators on the NFT Marketplace</p>
+            </div>
+            <button class="top-info-btn top-info__top-info-btn">
+               <a name="rankings"></a>
+               <span class="top-info-btn__btn-text">View Rankings</span>
+            </button>
+         </div>
+
+         <div class="top-grid-container top-creators__top-grid-container">
+
+            <!-- 1 -->
+
+            <div class="top-grid-container__first-artists-block">
+               <div class="top-grid-container__keepitreal-digilab">
+                  <div class="keepitreal top-grid-container__keepitreal top-art">
+                     <img class="top-grid-container__img" src="./img/keepitreal.png" alt="avatar">
+                     <p class="top-art__number">1</p>
+                     <div class="top-grid-container__text">
+ <h3 class="top-grid-container__name">Keepitreal</h3>
+                     <p class="top-grid-container__text">Total Sales:
+                        <span class="top-grid-container__text-span">34.53 ETH</span>
+                     </p>
+                     </div>
+                    
+                  </div>
+
+                  <div class="digilab top-grid-container__digilab top-art">
+                     <img class="top-grid-container__img" src="./img/digilab.png" alt="avatar">
+                     <p class="top-art__number">2</p>
+                        <div class="top-grid-container__text">
+                         <h3 class="top-grid-container__name">DigiLab</h3>
+                     <p class="top-grid-container__text">Total Sales:
+                        <span class="top-grid-container__text-span">34.53 ETH</span>
+                     </p>
+                        </div>
+                    
+                  </div>
+               </div>
+
+               <div class="top-grid-container__gravityone-juanie">
+                  <div class="gravityone top-grid-container__gravityone top-art">
+                     <img class="top-grid-container__img" src="./img/gravity1.png" alt="avatar">
+                     <p class="top-art__number">3</p>
+                        <div class="top-grid-container__text">
+                         <h3 class="top-grid-container__name">GravityOne</h3>
+                     <p class="top-grid-container__text">Total Sales:
+                        <span class="top-grid-container__text-span">34.53 ETH</span>
+                     </p>
+                        </div>
+                    
+                  </div>
+
+                  <div class="juanie top-grid-container__juanie top-art">
+                     <img class="top-grid-container__img" src="./img/Juanie.png" alt="avatar">
+                     <p class="top-art__number">4</p>
+                        <div class="top-grid-container__text">
+                         <h3 class="top-grid-container__name">Juanie</h3>
+                     <p class="top-grid-container__text">Total Sales:
+                        <span class="top-grid-container__text-span">34.53 ETH</span>
+                     </p>
+                        </div>
+                    
+                  </div>
+               </div>
+            </div>
+
+
+            <!-- 2 -->
+
+
+            <div class="top-grid-container__second-artists-block">
+               <div class="top-grid-container__bluewhale-mrfox">
+                  <div class="bluewhale top-grid-container__bluewhale top-art">
+                     <img class="top-grid-container__img" src="./img/BlueWhale.png" alt="avatar">
+                     <p class="top-art__number">5</p>
+                        <div class="top-grid-container__text">
+                         <h3 class="top-grid-container__name">BlueWhale</h3>
+                     <p class="top-grid-container__text">Total Sales:
+                        <span class="top-grid-container__text-span">34.53 ETH</span>
+                     </p>
+                        </div>
+                    
+                  </div>
+
+                  <div class="mrfox top-grid-container__mrfox top-art">
+                     <img class="top-grid-container__img" src="./img/mrFox.png" alt="avatar">
+                     <p class="top-art__number">6</p>
+                        <div class="top-grid-container__text">
+                         <h3 class="top-grid-container__name">Mr Fox</h3>
+                     <p class="top-grid-container__text">Total Sales:
+                        <span class="top-grid-container__text-span">34.53 ETH</span>
+                     </p>
+                        </div>
+                    
+                  </div>
+
+               </div>
+
+               <div class="top-grid-container__shroomie-robotica">
+
+                  <div class="shroomie top-grid-container__shroomie top-art">
+                     <img class="top-grid-container__img" src="./img/shroomie.png" alt="avatar">
+                     <p class="top-art__number">7</p>
+                     <h3 class="top-grid-container__name">Shroomie</h3>
+                     <p class="top-grid-container__text">Total Sales:
+                        <span class="top-grid-container__text-span">34.53 ETH</span>
+                     </p>
+                  </div>
+
+                  <div class="robotica top-grid-container__robotica top-art">
+                     <img class="top-grid-container__img" src="./img/robotica.png" alt="avatar">
+                     <p class="top-art__number">8</p>
+                     <h3 class="top-grid-container__name">Robotica</h3>
+                     <p class="top-grid-container__text">Total Sales:
+                        <span class="top-grid-container__text-span">34.53 ETH</span>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <!-- 3 -->
+            <div class="top-grid-container__artists-block">
+               <div class=" top-grid-container__rustyrobot-animakid">
+                  <div class="rustyrobot top-grid-container__rustyrobot top-art">
+                     <img class="top-grid-container__img" src="./img/rustyRobot.png" alt="avatar">
+                     <p class="top-art__number">9</p>
+                     <div class="top-grid-container__text">
+                        <h3 class="top-grid-container__name">RustyRobot</h3>
+                        <p class="top-grid-container__text">Total Sales:
+                           <span class="top-grid-container__text-span">34.53 ETH</span>
+                        </p>
+                     </div>
+
+                  </div>
+
+                  <div class="animakid top-grid-container__animakid top-art">
+                     <img class="top-grid-container__img" src="./img/animakid.png" alt="avatar">
+                     <p class="top-art__number-big">10</p>
+                     <div class="top-grid-container__text">
+                        <h3 class="top-grid-container__name">Animakid</h3>
+                        <p class="top-grid-container__text">Total Sales:
+                           <span class="top-grid-container__text-span">34.53 ETH</span>
+                        </p>
+                     </div>
+
+                  </div>
+               </div>
+
+               <div class="top-grid-container__dotgu-ghiblier">
+                  <div class="dotgu top-grid-container__dotgu top-art">
+                     <img class="top-grid-container__img" src="./img/dotgu.png" alt="avatar">
+                     <p class="top-art__number-big">11</p>
+                     <div class="top-grid-container__text">
+                        <h3 class="top-grid-container__name">Dotgu</h3>
+                        <p class="top-grid-container__text">Total Sales:
+                           <span class="top-grid-container__text-span">34.53 ETH</span>
+                        </p>
+                     </div>
+
+                  </div>
+
+                  <div class="ghiblier top-grid-container__ghiblier top-art">
+                     <img class="top-grid-container__img" src="./img/ghiblier.png" alt="avatar">
+                     <p class="top-art__number-big">12</p>
+                     <div class="top-grid-container__text">
+                        <h3 class="top-grid-container__name">Ghiblier</h3>
+                        <p class="top-grid-container__text">Total Sales:
+                           <span class="top-grid-container__text-span">34.53 ETH</span>
+                        </p>
+                     </div>
+
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+
+
+   <!-- !Block 4 -->
+   <section class="browse-categories">
+      <div class="container">
+         <h2 class="browse-categories__title">Browse Categories</h2>
+         <div class="categories-grid-container browse-categories__categories-grid-container">
+            <!-- 1 -->
+            <div class="categories-grid-container__art browse-grid">
+               <div class="browse-grid__imges">
+                  <img class="categories-grid-container__categories-img" src="./img/browse-categories-art.png"
+                     alt="art">
+                  <img class="categories-grid-container__categories-svg" src="./img/browse-categories-art-svg.svg"
+                     alt="paint brush">
+               </div>
+
+               <p class="categories-grid-container__categories-description">Art</p>
+            </div>
+
+            <div class="categories-grid-container__collectibles browse-grid">
+               <div class="browse-grid__imges">
+                  <img class="categories-grid-container__categories-img" src="./img/browse-categories-collection.png"
+                     alt="art">
+                  <img class="categories-grid-container__categories-svg"
+                     src="./img/browse-categories-collection-svg.svg" alt="ruler">
+               </div>
+
+               <p class="categories-grid-container__categories-description">Collectibles</p>
+            </div>
+
+            <div class="categories-grid-container__music browse-grid">
+               <div class="browse-grid__imges">
+                  <img class="categories-grid-container__categories-img" src="./img/browse-categories-music.png"
+                     alt="art">
+                  <img class="categories-grid-container__categories-svg" src="./img/browse-categories-music-svg.svg"
+                     alt="note">
+               </div>
+
+               <p class="categories-grid-container__categories-description">Music</p>
+            </div>
+
+            <div class="categories-grid-container__photography browse-grid">
+               <div class="browse-grid__imges">
+                  <img class="categories-grid-container__categories-img" src="./img/browse-categories-photography.png"
+                     alt="art">
+                  <img class="categories-grid-container__categories-svg"
+                     src="./img/browse-categories-photography-svg.svg" alt="camera">
+               </div>
+
+               <p class="categories-grid-container__categories-description">Photography</p>
+            </div>
+
+            <!-- 2 -->
+            <div class="categories-grid-container__video browse-grid">
+               <div class="browse-grid__imges">
+                  <img class="categories-grid-container__categories-img" src="./img/browse-categories-video.png"
+                     alt="art">
+                  <img class="categories-grid-container__categories-svg" src="./img/browse-categories-video-svg.svg"
+                     alt="video-camera">
+               </div>
+
+               <p class="categories-grid-container__categories-description">Video</p>
+            </div>
+
+            <div class="categories-grid-container__utility browse-grid">
+               <div class="browse-grid__imges">
+                  <img class="categories-grid-container__categories-img" src="./img/browse-categories-utility.png"
+                     alt="art">
+                  <img class="categories-grid-container__categories-svg" src="./img/browse-categories-utility-svg.svg"
+                     alt="Utility">
+               </div>
+
+               <p class="categories-grid-container__categories-description">Utility</p>
+            </div>
+
+            <div class="categories-grid-container__sport browse-grid">
+               <div class="browse-grid__imges">
+                  <img class="categories-grid-container__categories-img" src="./img/browse-categories-sport.png"
+                     alt="art">
+                  <img class="categories-grid-container__categories-svg" src="./img/browse-categories-sport-svg.svg"
+                     alt="ball">
+               </div>
+
+               <p class="categories-grid-container__categories-description">Sport</p>
+            </div>
+
+            <div class="categories-grid-container__virtual browse-grid">
+               <div class="browse-grid__imges">
+                  <img class="categories-grid-container__categories-img" src="./img/browse-categories-virtual.png"
+                     alt="art">
+                  <img class="categories-grid-container__categories-svg" src="./img/browse-categories-virtual-svg.svg"
+                     alt="planet">
+               </div>
+
+               <p class="categories-grid-container__categories-description">Virtual Worlds</p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- !Block 5 -->
+   <section class="more-nft">
+      <div class="container">
+         <div class="description more-nft__description">
+            <div class="more-info description__more-info">
+               <h2 class="more-info__title">Discover more NFTs</h2>
+               <p class="more-info__text">Explore new trending NFTs</p>
+            </div>
+            <button class="more-btn description__more-btn">
+               <span class="more-btn__span">See all</span>
+            </button>
+         </div>
+
+         <div class="more-grid-container more-nft__more-grid-container">
+            <!-- 1 -->
+            <div class="more-grid-container__galaxy more-grid">
+               <img class="more-grid-container__img" src="./img/distant-galaxy.png" alt="galaxy">
+               <div class="more-grid-container__all-info">
+                  <h3 class="more-grid-container__title">Distant Galaxy</h3>
+                  <p class="more-grid-container__artist-name moondancer">
+                     <a class="more-grid-container__link" href="#">MoonDancer</a>
+                  </p>
+                  <div class="info-block more-grid-container__info-block">
+                     <div class="info-block__price">
+                        <p class="info-block__text">price</p>
+                        <p class="info-block__numbers"> 1.63 ETH</p>
+                     </div>
+                     <div class="info-block__bid">
+                        <p class="info-block__text">highest bid</p>
+                        <p class="info-block__numbers">0.33 wETH</p>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+
+            <!-- 2 -->
+            <div class="more-grid-container__galaxy more-grid">
+               <img class="more-grid-container__img" src="./img/life-on-edena.png" alt="galaxy">
+               <div class="more-grid-container__all-info">
+                  <h3 class="more-grid-container__title">Life on Edena</h3>
+                  <p class="more-grid-container__artist-name nebulakid">
+                     <a class="more-grid-container__link" href="#">NebulaKid</a>
+                  </p>
+                  <div class="info-block more-grid-container__info-block">
+                     <div class="info-block__price">
+                        <p class="info-block__text">price</p>
+                        <p class="info-block__numbers"> 1.63 ETH</p>
+                     </div>
+                     <div class="info-block__bid">
+                        <p class="info-block__text">highest bid</p>
+                        <p class="info-block__numbers">0.33 wETH</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="more-grid-container__galaxy more-grid">
+               <img class="more-grid-container__img" src="./img/astrofiction.png" alt="galaxy">
+               <div class="more-grid-container__all-info">
+                  <h3 class="more-grid-container__title ">AstroFiction</h3>
+                  <p class="more-grid-container__artist-name spaceone">
+                     <a class="more-grid-container__link" href="#">Spaceone</a>
+                  </p>
+                  <div class="info-block more-grid-container__info-block">
+                     <div class="info-block__price">
+                        <p class="info-block__text">price</p>
+                        <p class="info-block__numbers"> 1.63 ETH</p>
+                     </div>
+                     <div class="info-block__bid">
+                        <p class="info-block__text">highest bid</p>
+                        <p class="info-block__numbers">0.33 wETH</p>
+                     </div>
                   </div>
                </div>
             </div>
@@ -78,79 +588,170 @@
       </div>
    </section>
 
-   <!-- Block 2 -->
-   <section class="trending-collection">
-      <div class="container">
-         <div class="info trending-collection__info">
-            <h2 class="info__title">Trending Collection</h2>
-            <p class="info__description">Checkout our weekly updated trending collection.</p>
+   <!-- !Block 6 -->
+   <section class="magic-mashrooms">
+      <div class="magic-mashrooms__background-img ">
+         <div class="container">
+            <div class="magic-block-text magic-mashrooms__magic-block-text">
+               <div class="magic-info magic-block-text__magic-info">
+                  <div class="magic-shroomie magic-info__magic-shroomie">
+                     <p class="magic-shroomie__name">Shroomie</p>
+                  </div>
+                  <div class="magic-main magic-info__magic-main">
+                     <h2 class="magic-main__title">Magic Mashrooms</h2>
+                     <button class="magic-btn magic-main__magic-btn">
+                        <span class="magic-btn__text">See NFT</span>
+                     </button>
+                  </div>
+               </div>
+               <div class="timer magic-block-text__timer">
+                  <p class="timer__text">Auction ends in:</p>
+                  <div class="timer__time">
+                     <div class="time-1">
+                        <p class="time__number">59</p>
+                        <p class="time__text">Hours</p>
+                     </div>
+                     <div class="time-2">
+                        <p class="time-dot">:</p>
+                     </div>
+                     <div class="time-3">
+                        <p class="time__number">59</p>
+                        <p class="time__text">Minutes</p>
+                     </div>
+                     <div class="time-4">
+                        <p class="time-dot">:</p>
+                     </div>
+                     <div class="time-5">
+                        <p class="time__number">59</p>
+                        <p class="time__text">Seconds</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </div>
-         <!-- grid -->
-         <div class="grid-container trending-collection__grid-container">
-            <!-- 1 -->
-            <div class="grid-cards__first grid-block">
-               <img class="grid-img-main" src="./img/first-main.png" alt="dog">
-            </div>
-            <div class="firs-left">
-               <img class="grid-img-left" src="./img/first-left-g.png" alt="cat">
-            </div>
-            <div class="first-center">
-               <img class="grid-img-center" src="./img/first-center.png" alt="bear">
-            </div>
-            <div class="grid-cards__first-text">
-               <p class="first-text__numbers">1025+</p>
-            </div>
-            <div class="information-first grid-cards__information-first">
-               <h5 class="information-first__grid-title">DSGN Animals</h5>
-               <a class="grid-artist-link" href="#" target="_blank">
-                  <p class="information-first__artist-name">MrFox</p>
-               </a>
-            </div>
-            <!-- 2 -->
-            <div class="grid-cards__second grid-block">
-               <img class="grid-img-main" src="./img/second-main.png" alt="mushroom">
-            </div>
-            <div class="second-left">
-               <img class="grid-img-left" src="./img/second-left.png" alt="mushroom">
-            </div>
-            <div class="second-center">
-               <img class="grid-img-center" src="./img/second-center.png" alt="mushroom">
-            </div>
-            <div class="grid-cards__second-text">
-               <p class="second-text__numbers">1025+</p>
-            </div>
-            <div class=" information grid-cards__information-second">
-               <h5 class="information-second__grid-title">Magic Mushrooms</h5>
-               <a class="grid-artist-link" href="#" target="_blank">
-                  <p class="information-second__artist-name">Shroomie</p>
-               </a>
-            </div>
-            <!-- 3 -->
-            <div class="grid-cards__third grid-block">
-               <img class="grid-img-main" src="./img/third-main.png" alt="man">
-            </div>
-            <div class="third-left">
-               <img class="grid-img-left" src="./img/third-left.png" alt="man">
-            </div>
-            <div class="third-center">
-               <img class="grid-img-center" src="./img/third-center.png" alt="man">
-            </div>
-            <div class="grid-cards__third-text">
-               <p class="third-text__numbers">1025+</p>
-            </div>
-            <div class="information grid-cards__information-third">
-               <h5 class="information-third__grid-title">Disco Machines</h5>
-               <a class="grid-artist-link" href="#" target="_blank">
-                  <p class="information-third__artist-name">BeKind2Robots</p>
-               </a>
-            </div>
-
-
-         </div>
-
-
       </div>
    </section>
+
+   <!-- !Block 7 -->
+   <section class="how-works">
+      <div class="container">
+         <div class="work-title how-works__work-title">
+            <h2 class="work-title__title">How it works</h2>
+            <p class="work-title__description">Find out how to get started</p>
+         </div>
+         <div class="work-grid-container how-works__work-grid-container">
+            <!-- 1 -->
+            <div class="work-grid-container__wallet work-grid">
+               <div class="work-grid-container__wallet-div-img"></div>
+               <div class="work-grid-container__earing-div">
+                  <h3 class="work-grid-container__title">Create Collection</h3>
+                  <p class="work-grid-container__text">Set up your wallet of choice. Connect it to the Animarket by
+                     clicking the wallet icon in the top right corner.</p>
+               </div>
+
+            </div>
+            <!-- 2 -->
+            <div class="work-grid-container__collection work-grid">
+               <div class="work-grid-container__collection-div-img"></div>
+               <div class="work-grid-container__earing-div">
+                  <h3 class="work-grid-container__title">Start Earning</h3>
+                  <p class="work-grid-container__text">Upload your work and setup your collection. Add a description,
+                     social links and floor price.</p>
+               </div>
+            </div>
+            <!-- 3 -->
+            <div class="work-grid-container__earning work-grid">
+               <div class="work-grid-container__earing-div-img"></div>
+               <div class="work-grid-container__earing-div">
+                  <h3 class="work-grid-container__title">Start Earning</h3>
+                  <p class="work-grid-container__text">Choose between auctions and fixed-price listings. Start earning
+                     by selling your NFTs or trading others.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- !Block 8 -->
+   <section class="join"> <a name="marketplace"></a>
+      <div class="container">
+         <div class="join__block">
+            <img class="block__img" src="./img/join.png" alt="cosmonaut">
+            <div class="main-info join__main-info">
+               <h2 class="main-info__title">Join our weekly digest</h2>
+               <p class="main-info__description">Get exclusive promotions & updates straight to your inbox.</p>
+               <div class="search-form main-info__search-form">
+                  <form class="search-form__form" action="https://fom.in.ua/echo">
+                     <input class="email-input" type="email" id="email-field" name="email-field"
+                        placeholder="Enter your email here" required />
+                     <button class="email-button">
+                        <span class="search-form__btn-text">Subscribe</span></button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- !lock 9 -->
+   <section class="footer">
+      <div class="container">
+         <div class="info-block footer__info-block">
+            <!-- 1 -->
+            <div class="info-block__logo">
+               <a class="info-block__logo-link" href="#" target="_blank">
+                  <img class="logo-link__logo-shop" src="./img/logo-shop.svg" alt="logo-shop">
+                  <img class="logo-link__logo-text" src="./img/logo-text.svg" alt="logo-text">
+               </a>
+               <p class="info-block__logo-description">NFT marketplace UI created with Anima for Figma.</p>
+               <p class="info-block__logo-text">Join our community</p>
+               <div class="logo-sites info-block__logo-sites">
+                  <a class="logo-sites__link" href="#" target="_blank">
+                     <img class="logo-sites__img" src="./img/DiscordLogo.svg" alt="Discord">
+                  </a>
+                  <a class="logo-sites__link" href="#" target="_blank">
+                     <img class="logo-sites__img" src="./img/YoutubeLogo.svg" alt="YouTube">
+                  </a>
+                  <a class="logo-sites__link" href="#" target="_blank">
+                     <img class="logo-sites__img" src="./img/TwitterLogo.svg" alt="X">
+                  </a>
+                  <a class="logo-sites__link" href="#" target="_blank">
+                     <img class="logo-sites__img" src="./img/InstagramLogo.svg" alt="instagram">
+                  </a>
+               </div>
+            </div>
+            <!-- 2 -->
+            <nav class="explore info-block__explore">
+               <ul class="explore__list">
+                  <h3 class="explore__title"> Explore</h3>
+                  <li class="explore__item"><a class="explore__link" href="#marketplace">Marketplace</a></li>
+                  <li class="explore__item"><a class="explore__link" href="#rankings">Rankings</a></li>
+                  <li class="explore__item"><a class="explore__link" href="#">Connect a wallet</a></li>
+               </ul>
+            </nav>
+            <!-- 3 -->
+            <div class="footer-form info-block__footer-form">
+               <h3 class="footer-form__title">Join our weekly digest</h3>
+               <p class="footer-form__text">Get exclusive promotions & updates straight to your inbox.</p>
+               <div class="search-form main-info__search-form">
+                  <form class="search-form__form" action="https://fom.in.ua/echo">
+                     <input class="email-input" type="email" id="email-field" name="email-field"
+                        placeholder="Enter your email here" required />
+                     <button class="email-button">Subscribe</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- !Block 10 -->
+   <section class="subfooter">
+      <div class="container-m">
+         <p class="subfooter__text">Ⓒ NFT Market. Use this template freely.</p>
+      </div>
+   </section>
+
+   <script src="script.js"></script>
 
 </body>
 
