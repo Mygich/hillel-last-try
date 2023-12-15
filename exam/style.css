@@ -644,7 +644,14 @@ padding: 10px 200px;
    .img-block__picture {
       max-width: 320px;
    }
+.text__btn-start::before {
 
+   top: 10px;
+   left: 70px;
+   width: 20px;
+   height: 20px;
+
+}
 }
 
 
