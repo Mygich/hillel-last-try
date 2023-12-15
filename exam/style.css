@@ -139,6 +139,7 @@ body {
       background-color: #3b3b3b83;
       border-radius: 20px;
       padding: 20px;
+         max-width: 350px;
    }
 
    .burger-menu {
@@ -232,10 +233,27 @@ body {
 
 /* ? */
 @media screen and (max-width: 690px) {
-   .header__navigation {
+.header__navigation {
+      position: absolute;
+      top: 80px;
+    
+      width: 200px;
+    
+   }
+
+   .navigation-list__block-nav {
       position: relative;
-      top: 25%;
-      right: 70%;
+      top: 0;
+
+      flex-direction: column;
+      max-width: 100px;
+   }
+
+   .navigation-list__btn {
+      flex-direction: column;
+      max-width: 130px;
+      position: relative;
+
    }
             .menu-btn {
                width: 30px;
@@ -245,19 +263,39 @@ body {
                top: 3%;
                right: 30px;
             }
-}
+         }
 
+
+
+
+
+/* ? */
 @media screen and (max-width: 400px) {
-   .header__navigation {
-      flex-direction: column;
-   }
+
 
    .header__navigation {
       position: relative;
-      top: 40%;
-      right: 85%;
-      padding: 0;
+      top: 80px;
+     background-color: transparent;
+     width: 0;
+      left: -200px;
    }
+.navigation-list__block-nav{
+   position: relative;
+   top: 0;
+  
+   flex-direction: column;
+   max-width: 100px;
+}
+
+.navigation-list__btn{
+   flex-direction: column;
+   max-width: 130px;
+   position: relative;
+
+}
+
+
 
    .navigation__btn {
       padding: 0px 20px;
@@ -287,14 +325,7 @@ body {
       position: relative;
    }
 
-   .menu-btn {
-      width: 30px;
-      height: 30px;
-      position: absolute;
-      display: flex;
-      top: 3%;
-      right: 3px;
-   }
+  
 }
 
 /* TODO content */
@@ -563,8 +594,42 @@ body {
    }
 
    .main-page__img-block {
+      max-width: 520px;
+      margin-bottom: 50px;
+   }
+
+
+   .img-block__picture {
+      max-width: 520px;
+   }
+
+   .hidden {
+      text-align: center;
+      margin: 0 auto;
+   }
+.btn-start__text {
+   padding-left: 0;
+}
+
+   .text__btn-start {
+margin-bottom: 30px;
+padding: 10px 200px;
+   }
+      .text__btn-start::before{
+         top: 13px;
+         left: 170px;
+      }
+}
+
+@media screen and (max-width: 560px) {
+   
+.text__btn-start {
+      margin-bottom: 30px;
+      padding: 10px 100px;
+   }
+   .main-page__img-block {
       max-width: 320px;
-      margin-bottom: 20px;
+      margin-bottom: 50px;
    }
 
 
@@ -572,18 +637,8 @@ body {
       max-width: 320px;
    }
 
-   .hidden {
-      text-align: center;
-      margin: 0 auto;
-   }
-
-   .text__btn-start {
-      max-width: 400px;
-
-      margin-bottom: 15px;
-   }
-
 }
+
 
 /*! Block-2 */
 
