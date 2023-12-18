@@ -100,7 +100,7 @@ body {
    left: 38px;
    width: 20px;
    height: 20px;
-   background-image: url('./img/User.svg');
+   background-image: url('../img/User.svg');
    background-size: cover;
    background-position: center;
 }
@@ -169,7 +169,7 @@ body {
       left: 10%;
       width: 40px;
       height: 40px;
-      background-image: url('./img/User.svg');
+      background-image: url('../img/User.svg');
       background-size: cover;
       background-position: center;
    }
@@ -310,7 +310,7 @@ body {
       left: 10%;
       width: 20px;
       height: 20px;
-      background-image: url('./img/User.svg');
+      background-image: url('../img/User.svg');
       background-size: cover;
       background-position: center;
    }
@@ -327,7 +327,7 @@ body {
       left: 10px;
       width: 20px;
       height: 20px;
-      background-image: url('./img/User.svg');
+      background-image: url('../img/User.svg');
       background-size: cover;
       background-position: center;
    }
@@ -400,7 +400,7 @@ body {
    width: 20px;
    height: 20px;
 
-   background-image: url('./img/rocket-white.svg');
+   background-image: url('../img/rocket-white.svg');
    background-size: cover;
    background-position: center;
 }
@@ -475,7 +475,7 @@ body {
    left: 0;
    width: 30px;
    height: 30px;
-   background-image: url('./img/main-page-artist-avatar.png');
+   background-image: url('../img/main-page-artist-avatar.png');
    background-size: cover;
    background-position: center;
 }
@@ -765,7 +765,7 @@ body {
    left: 0;
    width: 30px;
    height: 30px;
-   background-image: url('./img/first-artist.png');
+   background-image: url('../img/first-artist.png');
    background-size: cover;
    background-position: center;
 }
@@ -777,7 +777,7 @@ body {
    left: 0;
    width: 30px;
    height: 30px;
-   background-image: url('./img/second-artist.png');
+   background-image: url('../img/second-artist.png');
    background-size: cover;
    background-position: center;
 }
@@ -789,7 +789,7 @@ body {
    left: 0;
    width: 30px;
    height: 30px;
-   background-image: url('./img/third-artist.png');
+   background-image: url('../img/third-artist.png');
    background-size: cover;
    background-position: center;
 }
@@ -978,7 +978,7 @@ body {
    position: absolute;
    height: 20px;
    width: 20px;
-   background-image: url(./img/rocket-purple.svg);
+   background-image: url(../img/rocket-purple.svg);
    top: 0;
    left: -30px;
 }
@@ -1638,7 +1638,7 @@ body {
    position: absolute;
    height: 20px;
    width: 20px;
-   background-image: url(./img/Eye.svg);
+   background-image: url(../img/Eye.svg);
    top: 0;
    left: -30px;
 }
@@ -1726,7 +1726,7 @@ body {
    position: absolute;
    width: 30px;
    height: 30px;
-   background-image: url(./img/moondancer.png);
+   background-image: url(../img/moondancer.png);
    background-repeat: no-repeat;
    top: 0;
    left: 3px;
@@ -1737,7 +1737,7 @@ body {
    position: absolute;
    width: 30px;
    height: 30px;
-   background-image: url(./img/nebulakid.png);
+   background-image: url(../img/nebulakid.png);
    background-repeat: no-repeat;
    top: 0;
    left: 3px;
@@ -1748,7 +1748,7 @@ body {
    position: absolute;
    width: 30px;
    height: 30px;
-   background-image: url(./img/spaceone.png);
+   background-image: url(../img/spaceone.png);
    background-repeat: no-repeat;
    top: 0;
    left: 3px;
@@ -1894,7 +1894,7 @@ body {
 /* !Block 6 */
 .magic-mashrooms__background-img {
    background-position: center;
-   background: url(./img/mushroom-backgound.png), lightgray 50%;
+   background: url(../img/mushroom-backgound.png), lightgray 50%;
    background-repeat: no-repeat;
    background-size: cover;
    padding-top: 80px;
@@ -1955,7 +1955,7 @@ body {
    width: 30px;
    height: 30px;
    position: absolute;
-   background-image: url(./img/shroomie-small.png);
+   background-image: url(../img/shroomie-small.png);
    background-repeat: no-repeat;
    top: 0;
    left: 10%;
@@ -1996,7 +1996,7 @@ body {
    width: 30px;
    height: 30px;
    position: absolute;
-   background-image: url(./img/Eye.svg);
+   background-image: url(../img/Eye.svg);
    background-repeat: no-repeat;
    top: 0;
    left: -10px;
@@ -2375,7 +2375,7 @@ body {
    width: 30px;
    height: 30px;
    position: absolute;
-   background-image: url(./img/letter.svg);
+   background-image: url(../img/letter.svg);
    background-repeat: no-repeat;
    top: 0;
    left: -20px;
