@@ -487,14 +487,13 @@ body {
 
 
    .create-acc__image {
-      display: none;
-   }
 
-   .create-acc__image-hidden {
-      display: block;
       width: 100%;
+      max-width: 700px;
       margin-bottom: 30px;
    }
+
+
 
    .reg__main-text {
       max-width: 315px;
@@ -519,6 +518,16 @@ body {
       padding: 40px 0;
    }
 
+   .create-acc__image {
+      display: none;
+   }
+
+   .create-acc__image-hidden {
+      display: block;
+      width: 100%;
+      max-width: 700px;
+      margin-bottom: 30px;
+   }
 
    .create-acc__reg {
       padding: 15px;
