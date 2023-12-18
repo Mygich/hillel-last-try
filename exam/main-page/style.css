@@ -78,8 +78,6 @@ body {
    border-radius: 20px;
    background-color: var(--Call-to-Action, #A259FF);
 
-
-
    cursor: pointer;
    position: relative;
 }
@@ -101,7 +99,7 @@ body {
    left: 38px;
    width: 20px;
    height: 20px;
-   background-image: url('../img/User.svg');
+   background-image: url('./img/User.svg');
    background-size: cover;
    background-position: center;
 }
@@ -170,7 +168,7 @@ body {
       left: 10%;
       width: 40px;
       height: 40px;
-      background-image: url('../img/User.svg');
+      background-image: url('./img/User.svg');
       background-size: cover;
       background-position: center;
    }
@@ -311,7 +309,7 @@ body {
       left: 10%;
       width: 20px;
       height: 20px;
-      background-image: url('../img/User.svg');
+      background-image: url('./img/User.svg');
       background-size: cover;
       background-position: center;
    }
@@ -328,7 +326,7 @@ body {
       left: 10px;
       width: 20px;
       height: 20px;
-      background-image: url('../img/User.svg');
+      background-image: url('./img/User.svg');
       background-size: cover;
       background-position: center;
    }
@@ -401,7 +399,7 @@ body {
    width: 20px;
    height: 20px;
 
-   background-image: url('../img/rocket-white.svg');
+   background-image: url('./img/rocket-white.svg');
    background-size: cover;
    background-position: center;
 }
@@ -476,7 +474,7 @@ body {
    left: 0;
    width: 30px;
    height: 30px;
-   background-image: url('../img/main-page-artist-avatar.png');
+   background-image: url('./img/main-page-artist-avatar.png');
    background-size: cover;
    background-position: center;
 }
@@ -669,10 +667,6 @@ body {
    justify-content: space-between;
 }
 
-.grid-block {
-   margin-right: 30px;
-}
-
 .trending-collection__grid-container {
    display: flex;
    justify-content: space-between;
@@ -698,12 +692,145 @@ body {
    margin-bottom: 60px;
 }
 
-.first__first-card,
-.second__second-card,
-.third__third-card {
-   display: flex;
-   justify-content: space-between;
+/* grid */
+.first, .second, .third{
+   margin-right: 30px;
+   display: grid;
+   height: 100%;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(5, minmax(auto, 0.5fr));
+   gap: 30px; 
 }
+
+/* 1 */
+
+.grid-cards__first {
+   grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 1;
+   grid-row-end: 4;
+}
+
+.firs-left {
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 4;
+   grid-row-end: 5;
+}
+
+.first-center {
+   grid-column-start: 2;
+   grid-column-end: 3;
+   grid-row-start: 4;
+   grid-row-end: 5;
+}
+
+.grid-cards__first-text{
+   grid-column-start: 3;
+   grid-column-end: 4;
+   grid-row-start: 4;
+   grid-row-end: 5;
+   background-color: #A259FF;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.grid-cards__information-first{
+   grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 5;
+   grid-row-end: 6;
+}
+
+
+/* 2 */
+.grid-cards__second {
+   grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 1;
+   grid-row-end: 4;
+}
+
+.second-left {
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 4;
+   grid-row-end: 5;
+}
+
+
+.second-center {
+   grid-column-start: 2;
+   grid-column-end: 3;
+   grid-row-start: 4;
+   grid-row-end: 5;
+}
+
+
+.grid-cards__second-text {
+   grid-column-start: 3;
+   grid-column-end: 4;
+   grid-row-start: 4;
+   grid-row-end: 5;
+   background-color: #A259FF;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.grid-cards__information-second {
+   grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 5;
+   grid-row-end: 6;
+}
+
+/* 3 */
+
+.grid-cards__third {
+   grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 1;
+   grid-row-end: 4;
+}
+
+.third-left {
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 4;
+   grid-row-end: 5;
+}
+
+.third-center {
+   grid-column-start: 2;
+   grid-column-end: 3;
+   grid-row-start: 4;
+   grid-row-end: 5;
+}
+
+.grid-cards__third-text {
+   grid-column-start: 3;
+   grid-column-end: 4;
+   grid-row-start: 4;
+   grid-row-end: 5;
+   background-color: #A259FF;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.grid-cards__information-third {
+   grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 5;
+   grid-row-end: 6;
+}
+
+/*  */
 
 .grid-cards__first-text,
 .grid-cards__second-text,
@@ -715,12 +842,6 @@ body {
    align-items: center;
    width: 100px;
    height: 100px;
-}
-
-.grid-img-main,
-.grid-img-left,
-.grid-img-center {
-   margin-bottom: 15px;
 }
 
 .first-text__numbers,
@@ -766,7 +887,7 @@ body {
    left: 0;
    width: 30px;
    height: 30px;
-   background-image: url('../img/first-artist.png');
+   background-image: url('./img/first-artist.png');
    background-size: cover;
    background-position: center;
 }
@@ -778,7 +899,7 @@ body {
    left: 0;
    width: 30px;
    height: 30px;
-   background-image: url('../img/second-artist.png');
+   background-image: url('./img/second-artist.png');
    background-size: cover;
    background-position: center;
 }
@@ -790,7 +911,7 @@ body {
    left: 0;
    width: 30px;
    height: 30px;
-   background-image: url('../img/third-artist.png');
+   background-image: url('./img/third-artist.png');
    background-size: cover;
    background-position: center;
 }
@@ -805,11 +926,13 @@ body {
 
 /* ? */
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
    .trending-collection {
       padding: 50px;
    }
-
+.grid-container__cards{
+   justify-content: center;
+}
    .grid-container__third-card {
       display: none;
    }
@@ -829,7 +952,7 @@ body {
 }
 
 /* ? */
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 990px) {
 
    .trending-collection {
       padding: 10px;
@@ -851,12 +974,11 @@ body {
    }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 814px) {
 
    .trending-collection {
-      padding: 10px;
+      padding: 50px;
    }
-
    .grid-container__second-card {
       display: none;
    }
@@ -979,7 +1101,7 @@ body {
    position: absolute;
    height: 20px;
    width: 20px;
-   background-image: url(../img/rocket-purple.svg);
+   background-image: url(./img/rocket-purple.svg);
    top: 0;
    left: -30px;
 }
@@ -1639,7 +1761,7 @@ body {
    position: absolute;
    height: 20px;
    width: 20px;
-   background-image: url(../img/Eye.svg);
+   background-image: url(./img/Eye.svg);
    top: 0;
    left: -30px;
 }
@@ -1727,7 +1849,7 @@ body {
    position: absolute;
    width: 30px;
    height: 30px;
-   background-image: url(../img/moondancer.png);
+   background-image: url(./img/moondancer.png);
    background-repeat: no-repeat;
    top: 0;
    left: 3px;
@@ -1738,7 +1860,7 @@ body {
    position: absolute;
    width: 30px;
    height: 30px;
-   background-image: url(../img/nebulakid.png);
+   background-image: url(./img/nebulakid.png);
    background-repeat: no-repeat;
    top: 0;
    left: 3px;
@@ -1749,7 +1871,7 @@ body {
    position: absolute;
    width: 30px;
    height: 30px;
-   background-image: url(../img/spaceone.png);
+   background-image: url(./img/spaceone.png);
    background-repeat: no-repeat;
    top: 0;
    left: 3px;
@@ -1895,7 +2017,7 @@ body {
 /* !Block 6 */
 .magic-mashrooms__background-img {
    background-position: center;
-   background: url(../img/mushroom-backgound.png), lightgray 50%;
+   background: url(./img/mushroom-backgound.png), lightgray 50%;
    background-repeat: no-repeat;
    background-size: cover;
    padding-top: 80px;
@@ -1956,7 +2078,7 @@ body {
    width: 30px;
    height: 30px;
    position: absolute;
-   background-image: url(../img/shroomie-small.png);
+   background-image: url(./img/shroomie-small.png);
    background-repeat: no-repeat;
    top: 0;
    left: 10%;
@@ -1997,7 +2119,7 @@ body {
    width: 30px;
    height: 30px;
    position: absolute;
-   background-image: url(../img/Eye.svg);
+   background-image: url(./img/Eye.svg);
    background-repeat: no-repeat;
    top: 0;
    left: -10px;
@@ -2376,7 +2498,7 @@ body {
    width: 30px;
    height: 30px;
    position: absolute;
-   background-image: url(../img/letter.svg);
+   background-image: url(./img/letter.svg);
    background-repeat: no-repeat;
    top: 0;
    left: -20px;
